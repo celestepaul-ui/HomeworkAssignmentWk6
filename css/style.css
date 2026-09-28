@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(239, 239, 228);
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Lucida Sans'
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Lucida Sans'
+}
+
+p {
+  text-align: left;
+}
+
+.Subtitle {
+  text-align: center
+}
+
+.footerlink {
+  text-align: right
+}
+
+#maintitle {
+  color: rgb(7, 138, 138)
+}
+
+#sectiontitle1 {
+  color: rgb(7, 138, 138);
+
+}
+
+#sectiontitle2 {
+  color: rgb(7, 138, 138);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+@media (max-width: 600px) {
+  main {
+    font-size: 12px;
+  }
+}
